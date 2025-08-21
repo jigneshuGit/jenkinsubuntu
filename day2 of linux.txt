@@ -1,0 +1,66 @@
+root@rinki:~# history
+    1  pwd
+    2  touch 123
+    3  ls
+    4  cp 123 456
+    5  ls
+    6  mv 456 abc
+    7  ls
+    8  touch uma.txt
+    9  ls
+   10  cat abc
+   11  vi abc
+   12  cat abc
+   13  hostname
+   14  hostname -i
+   15  curl ifconfig.me
+   16  uname
+   17  uname -a
+   18  Cat /etc/os-release
+   19  cat /etc/os-release
+   20  cd /etc/
+   21  ls
+   22  cat os-release
+   23  free
+   24  free -m
+   25  free -g
+   26  free -h
+   27  df -h
+   28  top
+   29  htop
+   30  vi sid.sh
+   31  cat sid.sh 
+   32  ./sid.sh
+   33  ls -l
+   34  cd /
+   35  cd ~
+   36  ls
+   37  clear
+   38  vi sid.sh
+   39  ./sid.sh
+   40  ls -l
+   41  chmod +x sid.sh 
+   42  ls -l
+   43  ./sid.sh
+   44  cat sid.sh 
+   45  uname -a
+   46  uptime
+   47  last
+   48  date
+   49  ps
+   50  du
+   51  ping www.google.com
+   52  who
+   53  history
+   54  clear
+   55  root@rinki:~# history
+   56  clear
+   57  w
+   58  last
+   59  who
+   60  mkdir myfiles ; touch myfiles/{a.txt,b.txt,c.txt}
+   61  ls myfiles
+   62  tar -cvf allfiles.tar myfiles
+   63  ls
+   64  tar -xvf allfiles.tar
+   65  history

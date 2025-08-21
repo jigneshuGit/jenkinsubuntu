@@ -1,0 +1,66 @@
+1  ssh-keygen
+    2  cd /root/.ssh/id_ed25519
+    3  cd /root/.ssh/
+    4  ls
+    5  cat id_ed25519.pub 
+    6  cd ..
+    7  adduser abc
+    8  su abc
+    9  passwd
+   10  userdel abc
+   11  su abc
+   12  add aniruddha
+   13  adduser Aniruddha
+   14  adduser aniruddha
+   15  addgroup stellar
+   16  getent group
+   17  usermod -a -G stellar aniruddha
+   18  getent group
+   19  delgroup stellar
+   20  getent group
+   21  cd /etc/sudoers
+   22  cd /etc/sudoers.d/
+   23  ls
+   24  vi google_sudoers 
+   25  cd ..
+   26  ls
+   27  cd sudoers
+   28  vi sudoers
+   29  clear
+   30  chage aniruddha
+   31  ifconfig
+   32  ipconfig
+   33  apt install net-tools
+   34  ifconfig
+   35  ping www.google.com
+   36  netstat
+   37  ssk
+   38  ss
+   39  dig google.com
+   40  whois amazon.com
+   41  apt install whois
+   42  whois amazon.com
+   43  history
+
+UAM + Networking 
+1  history
+    2  su abc
+    3  adduser akash
+    4  addgroup devops
+    5  getent group
+    6  usermod -a -G devops akash
+    7  getent group
+    8  delgroup devops
+    9  getent group
+   10  vi /etc/sudoers
+   11  chage akash
+   12  ifconfig
+   13  apt install net-tools
+   14  ifconfig
+   15  ping www.google.com
+   16  ss
+   17  dig google.com
+   18  whois flipkart.com
+   19  apt install whois
+   20  whois flipkart.com
+   21  history

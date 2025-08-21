@@ -1,0 +1,48 @@
+root@akash:~# history
+    1  su piyush
+    2  adduser piyush
+    3  su piyush
+    4  addgroup devops
+    5  getent group
+    6  usermod -a -G devops piyush
+    7  getent group
+    8  delgroup devops
+    9  getent group
+   10  deluser piyush
+   11  getent group
+   12  cat /etc/passwd
+   13  adduser aman
+   14  cat /etc/passwd
+   15  cat etc/shadow
+   16  cat /etc/shadow
+   17  ls
+   18  vi mayur
+   19  ls
+   20  vi mayur 
+   21  vi akash.sh
+   22  ./akash.sh
+   23  ls
+   24  ls -l
+   25  chmod +x akash.sh 
+   26  ls -l
+   27  mkdir vishal
+   28  mkdir aditya
+   29  ls -l
+   30  chmod 777 mayur 
+   31  ls -l
+   32  apt install git
+   33  apt install docker.io
+   34  apt install python
+   35  apy install jenkins
+   36  apt install jenkins
+   37  apt-get update
+   38  apt install jenkins
+   39  sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
+   40  echo "deb [signed-by=/etc/apt/keyrings/jenkins-keyring.asc]"   https://pkg.jenkins.io/debian-stable binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   41  sudo apt-get update
+   42  sudo apt-get install jenkins
+   43  apt remove git
+   44  apt get update
+   45  apt-get update
+   46  apt-get upgrade
+   47  history
